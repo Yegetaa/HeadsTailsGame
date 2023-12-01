@@ -5,7 +5,7 @@ let correctAnswer = '';
 
 
 function startGame() {
-    correctAnswer = Math.random() < 2 ? 'heads' : 'tails';
+    correctAnswer = Math.random() < 0.5 ? 'heads' : 'tails';
     return(correctAnswer);
 }
 
